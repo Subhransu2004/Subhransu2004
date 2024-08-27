@@ -1,0 +1,207 @@
+*{
+	margin-left:auto;
+	margin-right:auto;
+}
+body{ font-family:Arial, Helvetica, sans-serif; background:#ffffff;}
+.Top{ 
+	width:1300px; 
+	margin-bottom:20px;
+}
+
+
+/********** Start Menu Bar **********/
+
+.header{
+	 background:#ffffff;
+}
+.header-left{
+	 width:250px; float:left;
+}
+.header-right{
+	 width:1050px; float:left; 
+}
+.header-right-top{ 
+	float:left; padding-left:750px;
+}
+.header-right-top ul{ 
+	list-style:none; float:right; margin:5px 20px;
+}
+.header-right-top ul li{ 
+	float:right; padding:0px 10px;
+}
+.header-right-top ul li a{
+	 font-size:12px; color:#ffffff; padding:8px 10px;
+}
+.form{ 
+	height:34px; width:352px; padding:0px 10px; float:left;
+}
+.header-right-bottom{
+    width:1050px; height:40px; float:center;
+}
+.header-right-bottom-left{
+    width:530px;float:left; padding-left:100px;
+}
+.header-right-bottom-center{
+    width:250px; float:left;
+}
+.header-right-bottom-center ul{
+    margin:0px; padding-left:100px
+}
+.header-right-bottom-center ul li{
+    list-style:none;  font-size:11px; margin:10px 0px; float:left;
+}
+.header-right-bottom-center ul li a{
+    padding:5px 10px; margin:5px 5px; color:#ffffff; background:#ff0000;
+}
+.header-right-bottom-right{
+    width:180px; float:right;  font-size:25px;
+}
+/********** End Menu Bar **********/
+
+
+
+/******** Start Dropdown Menu ********/
+.menu{
+    width: 1280px;
+    height: 50px;
+    margin: 0px auto;
+    padding:0px 10px;
+	float:left;
+	background:red;
+    border-radius:2px
+}
+#menubar li,
+#menubar li a {
+    background: red;
+    float: left;
+    position: relative
+}
+
+
+#menubar li a,
+#menubar ul li a {
+    font-weight: 700;
+    font-style: italic;
+}
+#menubar,
+#menubar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menubar {
+    height: 45px;
+    overflow: hidden;
+}
+#menubar li a {
+    color: #ffffff;
+    font-size: 13px;
+    height: 45px;
+    line-height: 40px;
+    padding: 0 25px;
+    text-decoration: none;
+    z-index: 20
+}
+#menubar ul{
+    width: 180px;
+}
+#menubar ul {
+    padding: 10px 2px;
+    position: absolute;
+    top: -120px;
+    z-index: 1;
+} 
+#menubar ul li a {
+    background: 0 0;
+    line-height: 20px;
+    width: 180px;
+    font-size: 12px;
+    padding: 3px 15px;
+    height: auto
+}
+#menubar:hover {
+    height: 350px
+}
+#menubar li:hover ul {
+    -webkit-transform: translate(0, 161px)
+}
+
+/************** End Dropdown Menu ************/
+
+
+
+
+/************ Start Footer *****************/
+.footer {
+    width: 1685px;
+    float: left;
+    background: red;
+}
+
+.footer-head {
+    width: 300px;
+    float: left;
+    padding: 10px 8px;
+}
+
+.footer-head-link {
+    font-size: 18px;
+    padding: 15px 10px 0px;
+    color: #ffffff;
+}
+
+.footer-head ul li {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px 0px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footer-head ul li a {
+    padding: 8px 10px;
+    margin: 2px 0px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.copyright {
+    width: 1625px;
+    font-size: 12px;
+    background: maroon;
+    float: left;
+    padding: 15px 30px 15px 30px;
+    color: #ffffff;
+}
+
+.copyright-left {
+    width: 940px;
+    float: left;
+}
+
+.copyright-right {
+    width: 300px;
+    float: left;
+    text-align: right;
+}
+
+.a {
+    color: #ffffff;
+}
+
+.about {
+    padding: 10px 10px;
+    width: 280px;
+    color: #ffffff;
+    float: left;
+    text-align: left;
+}
+
+.form {
+    height: 33px;
+    width: 205px;
+    padding: 0px 10px;
+    float: left;
+}
+/*************** End Footer ***********/
+
